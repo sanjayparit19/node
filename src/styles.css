@@ -1,0 +1,491 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,600&family=Oswald:wght@300;400;500;600;700&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+}
+
+#site-header {
+  width: 100%;
+  margin: 0px;
+  padding: 6px 0px;
+  border-bottom: 1px solid #666;
+}
+
+#site-header ul li a {
+  font-size: 15px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 5px 12px;
+}
+
+#site-header .navbar-brand {
+  color: #20a4d2;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#slider {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  min-height: 200px;
+  position: relative;
+  z-index: 99;
+  overflow: hidden;
+}
+
+#slider .instant {
+  width: 100%;
+  min-height: 200px;
+  top: 18%;
+  position: absolute;
+  z-index: 999;
+  text-align: center;
+}
+
+#slider .instant h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#slider .btn {
+  width: 120px;
+  border-radius: 0px;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+@media (min-width: 992px) {
+  #slider {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    min-height: 450px;
+    position: relative;
+    z-index: 99;
+    overflow: hidden;
+  }
+  #slider .instant {
+    width: 100%;
+    min-height: 200px;
+    top: 30%;
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+  }
+  #slider .instant h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    color: #fff;
+  }
+  #slider .btn {
+    width: 110px;
+    border-radius: 0px;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-top: 50px;
+    font-size: 16px;
+  }
+}
+
+#slider .btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+#feature {
+  width: 100%;
+  min-height: 100px;
+  background-color: #fff;
+  position: relative;
+  margin-top: 0px;
+  z-index: 999;
+  color: #4c45a7;
+}
+
+#feature .card {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+@media (min-width: 992px) {
+  #feature .card {
+    margin-top: -50px;
+    padding: 25px;
+  }
+}
+
+#feature .card-title {
+  font-weight: 500;
+  color: #544bc9;
+  font-size: 24px;
+}
+
+#feature .card-subtitle {
+  font-weight: 400;
+  color: #544bc9;
+  font-size: 15px;
+}
+
+#feature .icon {
+  width: 25%;
+  float: left;
+  text-align: left;
+  height: 120px;
+}
+
+#feature .btn {
+  width: 45%;
+  border-radius: 0px;
+  border: 2px solid #544bc9;
+  color: #544bc9;
+}
+
+#feature .btn:hover {
+  background: #544bc9;
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  #feature .btn {
+    width: 40%;
+    border-radius: 0px;
+    border: 2px solid #544bc9;
+    color: #544bc9;
+  }
+  #feature .btn:hover {
+    background: #544bc9;
+    color: #fff;
+  }
+  #feature .icon {
+    width: 20%;
+    float: left;
+    height: 120px;
+  }
+}
+
+#site-header .btn {
+  min-width: 100px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 0px;
+  padding: 5px 10px;
+  border: 2px solid #544bc9;
+  color: #544bc9;
+  margin: 0px 5px;
+  text-transform: uppercase;
+}
+
+#site-header .btn:hover {
+  background: #544bc9;
+  color: #fff;
+}
+
+#site-header .btn:focus {
+  background: #544bc9;
+  color: #fff;
+}
+
+#highlight {
+  width: 100%;
+  background-color: #fff;
+  min-height: 200px;
+  padding: 20px 0px;
+}
+
+#highlight .box {
+  padding: 0px;
+  text-align: center;
+}
+
+#highlight .box h1 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+#highlight .box p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+@media (min-width: 992px) {
+  #highlight {
+    width: 100%;
+    background-color: #fff;
+    min-height: 400px;
+    padding: 60px 0px;
+  }
+  #highlight .box {
+    padding: 100px 50px;
+    text-align: center;
+  }
+  #highlight .box h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42px;
+  }
+}
+
+#highlight .box h3 {
+  font-size: 24px;
+  text-decoration: underline;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#highlight .box p {
+  font-size: 21px;
+  text-align: justify;
+  margin-top: 50px;
+}
+
+#footer {
+  min-height: 100px;
+  padding: 50px 20px;
+  width: 100%;
+  background-color: #121212;
+  min-height: 200px;
+  color: #fff;
+}
+
+#finfo {
+  width: 100%;
+  background-image: url(../src/assets/img/fbinfo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 350px;
+  padding: 50px 20px;
+  color: #fff;
+}
+
+#crick-info {
+  width: 100%;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  padding: 50px 20px;
+  color: #000;
+  text-align: center;
+}
+
+#crick-info h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin: 15px 0px;
+}
+
+#crick-info p {
+  text-align: center;
+  font-size: 16px;
+  padding: 5px 20px;
+  line-height: 28px;
+}
+
+@media (min-width: 992px) {
+  #crick-info h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    font-weight: bold;
+    margin: 20px 0px;
+  }
+  #crick-info p {
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+}
+
+#footer h3 {
+  font-size: 32px;
+  color: #fff;
+}
+
+#footer .bullet ul {
+  margin: 20px 0px;
+  padding: 0px;
+}
+
+#footer .bullet ul li {
+  width: 50%;
+  float: left;
+  max-width: 320px;
+  list-style-type: none;
+  color: #fff;
+}
+
+#footer .bullet ul li a {
+  color: #fff;
+  margin-left: 0px;
+  position: relative;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px 0px;
+}
+
+#footer .bullet ul li a:before {
+  top: 0;
+  left: 0px;
+  color: #f00;
+  font-weight: 900;
+  position: absolute;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+#footer .bullet ul li a:after {
+  position: absolute;
+  height: 1px;
+  width: 0%;
+  left: 0px;
+  bottom: 0;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+#footer .bullet ul li a:hover {
+  margin-left: 10px;
+  color: #f00;
+}
+
+#footer .bullet ul li a:hover:before {
+  color: #f00;
+}
+
+#footer .fa {
+  margin-right: 2px;
+}
+
+#privacy {
+  width: 100%;
+  margin: 0px;
+  padding: 50px 10px;
+}
+
+#privacy p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+#privacy h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#trans-details {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 200px;
+  padding: 80px 0px;
+  background-color: #fff;
+}
+
+#trans-details h2 {
+  font-size: 20px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+#register {
+  width: 100%;
+  padding: 50px 0px;
+  min-height: 500px;
+  background-color: #fff;
+}
+
+#register .btn {
+  width: 100px;
+  text-align: center;
+  border-radius: 0px;
+  border: 2px solid #544bc9;
+  color: #544bc9;
+}
+
+#register .btn:hover {
+  background: #544bc9;
+  color: #fff;
+}
+
+#register .msg {
+  padding: 20px 0px;
+  color: #544bc9;
+}
+
+#register .card-title {
+  font-size: 24px;
+}
+
+#login {
+  width: 100%;
+  padding: 50px 0px;
+  min-height: 500px;
+}
+
+.modal {
+  padding: 1.5rem;
+}
+
+.modal-dialog h1 {
+  margin-bottom: 10px;
+}
+
+.modal-dialog .btn {
+  width: 110px;
+  text-align: center;
+  border-radius: 0px;
+  border: 2px solid #544bc9;
+  color: #544bc9;
+}
+
+.modal-dialog .btn:hover {
+  border: 2px solid #544bc9;
+  background: #544bc9;
+  color: #fff;
+}
+
+.full-width {
+  width: 100%;
+}
+
+#sidebar {
+  height: 100vh;
+  width: 230px;
+}
+
+#sidebar .nav-pills .nav-link {
+  font-size: 15px;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  color: #fff;
+}
+/*# sourceMappingURL=styles.css.map */

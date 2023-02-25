@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "trans-details.component.scss"
+    ],
+    "names": [],
+    "file": "trans-details.component.css"
+}

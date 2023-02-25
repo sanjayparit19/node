@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "highlight.component.scss"
+    ],
+    "names": [],
+    "file": "highlight.component.css"
+}

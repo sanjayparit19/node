@@ -1,0 +1,155 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "admin",
+      "password": "Admin@123",
+      "email": "test@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "sanjay01",
+      "name": "sanjay01",
+      "password": "Sanjay@123",
+      "email": "sanjay@gmail.com",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "testuser",
+      "name": "Test User",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "Jhon1",
+      "name": "NT Infotech",
+      "password": "Test@1233",
+      "email": "te@in.com",
+      "gender": "male",
+      "role": "tech",
+      "isactive": true
+    },
+    {
+      "id": "ntuser",
+      "name": "ramesh",
+      "password": "Test@1234",
+      "email": "te@in.com",
+      "gender": "male",
+      "role": "tech",
+      "isactive": true
+    },
+    {
+      "id": "fsdafds01",
+      "name": "dsafsdafsd",
+      "password": "Jiaho@123",
+      "email": "asdfsdfsda@gmail.com",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "fadslkjfl",
+      "name": "KJDSALFJLKDS",
+      "password": "Jaiho@12345",
+      "email": "sdfa@gmail.com",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "test1102",
+      "name": "test11",
+      "password": "Test@1145",
+      "email": "test11@gmail.com",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "testuser101",
+      "name": "testuser101",
+      "password": "Testuser@123",
+      "email": "testuser101@gmail.com",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "demo12",
+      "name": "demo",
+      "password": "demo123",
+      "email": "demo@gmail.com",
+      "role": "",
+      "isactive": false
+    }
+  ],
+  "role": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "tech",
+      "name": "Technician"
+    }
+  ],
+  "deposit": [
+    {
+      "id": "demo12",
+      "name": "test",
+      "amount": "100",
+      "upi": "demo@ybl",
+      "transaction": "demo1020"
+    },
+    {
+      "id": "admin",
+      "name": "admin",
+      "amount": "9000",
+      "upi": "admin@yvl",
+      "transaction": "test00212"
+    },
+    {
+      "id": "fdsafdsk",
+      "name": "dskafkdsaj",
+      "amount": "fhdsakjfh",
+      "upi": "ffhdskjf",
+      "transaction": "fjdskfa"
+    },
+    {
+      "id": "test001",
+      "name": "test001",
+      "amount": "1000",
+      "transaction": "test001ref001"
+    },
+    {
+      "id": "test1702",
+      "name": "test1702",
+      "amount": "1000",
+      "transaction": "REFN8178298738"
+    },
+    {
+      "id": "test002",
+      "name": "test002",
+      "amount": "7864132",
+      "transaction": "test002"
+    }
+  ],
+  "withdrawal": [
+    {
+      "id": "test15feb",
+      "name": "test15feb",
+      "account": "1030303039",
+      "amount": "897",
+      "ifsc": "ifsc002663"
+    },
+    {
+      "id": "adsfa",
+      "name": "ffdsaf",
+      "account": "euriuyew",
+      "amount": "8988",
+      "ifsc": "jfdsakjfk"
+    }
+  ]
+}

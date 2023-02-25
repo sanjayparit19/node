@@ -1,0 +1,36 @@
+  <section id="login">
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-xl-5 mt-5">
+            <h2>User Login </h2>   
+            <hr> 
+            <mat-card>
+              <mat-card-content>
+                <form class="example-form" [formGroup]="loginform"  (ngSubmit)="proceedlogin()">
+                  <mat-form-field class="full-width">
+                    <mat-label>User Name</mat-label>
+                    <input matInput formControlName="id">
+                  </mat-form-field>
+                  
+                  <mat-form-field class="full-width">
+                    <mat-label>Password</mat-label>
+                    <input type="password" matInput formControlName="password">
+                  </mat-form-field> 
+                
+                  <button mat-raised-button color="primary" class="me-3">Submit</button>
+                  <a routerLink="/register" mat-raised-button color="accent">Back to Registration</a>
+                                
+                  </form>
+              </mat-card-content>
+            </mat-card>
+
+          </div>
+
+      </div>
+    
+          
+         
+          
+     </div>
+   
+    </section>

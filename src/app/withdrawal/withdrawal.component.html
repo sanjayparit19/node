@@ -1,0 +1,54 @@
+<section id="withdrawl">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-xl-7">
+                <figure>
+                    <img src="../../assets/img/withdrawal.png" class="img-fluid" alt="">
+                </figure>
+            </div>
+            <div class="col-xl-4">
+              <h1 class="ps-1 mt-4">Withdrawal Request</h1>
+              <mat-card>
+                  <mat-card-content>
+                    <form class="example-form" [formGroup]="withdrawalForm" (ngSubmit)="proceedwithdrawal()">
+                      <mat-form-field class="full-width">
+                        <mat-label>User ID</mat-label>
+                        <input matInput formControlName="id">
+                      </mat-form-field>
+                      
+                      <mat-form-field class="full-width">
+                        <mat-label>Beneficiary Name :</mat-label>
+                        <input matInput formControlName="name">
+                      </mat-form-field>
+        
+                      <mat-form-field class="full-width">
+                        <mat-label>Beneficiary Account Number :</mat-label>
+                        <input matInput formControlName="account">
+                      </mat-form-field>
+        
+                      <mat-form-field class="full-width">
+                        <mat-label>Beneficiary Bank IFSC :</mat-label>
+                        <input matInput formControlName="ifsc">
+                      </mat-form-field>
+
+                      <mat-form-field class="full-width">
+                        <mat-label>Amount :</mat-label>
+                        <input matInput formControlName="amount">
+                      </mat-form-field>
+        
+                      <button mat-raised-button color="primary" class="me-2">Submit</button>
+                   
+                    </form>
+                  </mat-card-content>
+                </mat-card>
+
+
+          </div>
+
+           
+
+        </div>
+
+    </div>
+</section>
